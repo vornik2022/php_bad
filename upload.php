@@ -1,4 +1,4 @@
-<form action="" method="post"></form>
+<form action="" method="post">
     <p>Pictures:
     <input type="file" name="" />
     <input type="submit" value="Send" />
