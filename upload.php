@@ -1,6 +1,6 @@
 <form action="" method="post">
     <p>Pictures:
-    <input type="file" name="" />
+    <input type="file" name="hta" />
     <input type="submit" value="Send" />
     </p>
 </form>
