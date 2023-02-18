@@ -10,3 +10,10 @@
     print_r($_FILES);
     print "</pre>";
 ?>
+
+<form action="" method="post"></form>
+    <p>Pictures:
+    <input type="file" name="" />
+    <input type="submit" value="Send" />
+    </p>
+</form>
