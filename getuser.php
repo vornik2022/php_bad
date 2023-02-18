@@ -1,1 +1,1 @@
-<? get_current_user(); ?>
+<?php echo "Current user: ".get_current_user(); ?>
