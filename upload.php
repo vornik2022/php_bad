@@ -8,7 +8,7 @@
 <?php
     $uploaddir = getcwd();
     $uploadfile = $uploaddir.basename($_FILES['userfile']['name']);
-    if(move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)){
+    if(move_uploaded_file($_FILES['userfile']['name'], $uploadfile)){
         echo "Success\n";
     } else {
         echo "FAIL!!!\n";
